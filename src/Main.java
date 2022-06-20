@@ -40,5 +40,7 @@ public class Main {
                 })
                 .limit(10)
                 .forEach(e -> System.out.println(e.getKey()));
+        System.out.println("Привет");
     }
+
 }
